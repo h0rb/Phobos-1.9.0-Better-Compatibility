@@ -1,24 +1,16 @@
-# CLEAN_Phobos_1.9.0-BUILDABLE-SRC
+Compatible phobos 1.9.0
 
-Buildable src reconstructed from the clean Phobos 1.9.0 jar. Full buildable and functional, jar in releases is built from this clean src. 
+compatible with pyro, future, konas and rusher.
 
+to build it yourself, use:
 
-
-
-How to build:
-
-
-Macos: 
-
+MACOS/LINUX:
 ./gradlew setupDecompWorkspace
-
 ./gradlew build
 
+WINDOWS:
+./gradle setupDecompWorkspace
+./gradle build
 
 
-Windows: 
-
-gradlew setupDecompWorkspace
-
-gradlew build
 
